@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
-import CreateCharacter from "../components/CreateCharacter";
+import CreateCharacters from "../comoponents/CreateCharacters";
+import EditCharacters from "../comoponents/EditCharacters";
 
 export const router = createBrowserRouter([
     {
@@ -9,6 +10,11 @@ export const router = createBrowserRouter([
     },
     {
         path: "/create",
-        element: <CreateCharacter/>
+        element: <CreateCharacters/>
+    },
+    {
+        path: "/edit",
+        element: <EditCharacters/>
     }
+
 ])

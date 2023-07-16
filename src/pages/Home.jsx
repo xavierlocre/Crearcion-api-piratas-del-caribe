@@ -1,15 +1,15 @@
+import ShowCharacters from "../comoponents/ShowCharacters"
 import { NavLink } from "react-router-dom"
-import ShowCharacters from "../components/ShowCharacters"
 
 const Home = () => {
-  return (
-    <div>
-        <NavLink to="/create"> <button>Crear</button> </NavLink>
-         
+    return (
+        <div>
+            <NavLink to="/create"> <button>Crear</button> </NavLink>
+            <NavLink to="/edit"> <button>Editar</button> </NavLink>
 
-        <ShowCharacters/>
-    </div>
-  )
+            <ShowCharacters/>
+        </div>
+    )
 }
 
 export default Home
