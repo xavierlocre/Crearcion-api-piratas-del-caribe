@@ -1,8 +1,11 @@
+import ShowCharacters from "../componentes/ShowCharacters"
 
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <div>
+            <ShowCharacters/>
+        </div>
     )
 }
 
