@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import './createcharacters.css'
 
 
 const url = "http://localhost:8080/characters"

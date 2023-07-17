@@ -1,4 +1,4 @@
-import ShowCharacters from "../comoponents/ShowCharacters"
+import ShowCharacters from "../components/ShowCharacters"
 import { NavLink } from "react-router-dom"
 
 const Home = () => {
