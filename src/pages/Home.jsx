@@ -6,6 +6,7 @@ const Home = () => {
         <div>
             <NavLink to="/create"> <button>Crear</button> </NavLink>
             <NavLink to="/edit"> <button>Editar</button> </NavLink>
+            <NavLink to="/delete"> <button>Borrar</button> </NavLink>
 
             <ShowCharacters/>
         </div>
