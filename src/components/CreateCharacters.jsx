@@ -25,7 +25,7 @@ const CreateCharacters = () => {
     return (
 
         <>
-            <h2>Crear un elemento</h2>
+            <h2>Crear un personaje de la saga Piratas del Caribe</h2>
 
             <form onSubmit={store}>
                 <div>

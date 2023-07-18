@@ -69,7 +69,7 @@ const EditCharacters = () => {
 
     return (
         <>
-        <h2>{isEditing ? "Crear" : "Editar"} un elemento</h2>
+        <h2>{isEditing ? "Crear" : "Editar"} un personaje de la saga</h2>
 
         <div>
             <label>Seleccionar personaje:</label>

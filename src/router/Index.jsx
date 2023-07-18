@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import CreateCharacters from "../components/CreateCharacters";
 import EditCharacters from "../components/EditCharacters";
+import DeleteCharacter from "../components/DeleteCharacter";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
     {
         path: "/edit",
         element: <EditCharacters/>
+    },
+    {
+        path: "/delete",
+        element: <DeleteCharacter/>
     }
 
 ])
