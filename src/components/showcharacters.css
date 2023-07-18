@@ -1,19 +1,25 @@
-.contenedor{
-    width: 50%;
-    height: 70vh;
-    border: solid 1px white;
-    margin-top: 20px;
-}
-.contenedor-img{
+.contenedor {
     width: 100%;
-    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center; /* Agregado para centrar los elementos */
+    
+    gap: 10px; /* Agregado para agregar espacio entre las tarjetas */
 }
 
-.contenedor-datos{
-    width: 100%;
-    height: 40%;
+img {
+    width: 190px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
 }
 
-.img{
-    width: 30%;
+.contenedor-img {
+        border: solid 1px white;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: rgb(250, 235, 215);
+        box-shadow: 5px 5px 5px black;
+        transition: 0.3s ease;
 }

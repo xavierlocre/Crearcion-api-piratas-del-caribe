@@ -28,10 +28,11 @@ const ShowCharacters = () => {
                     <div className="contenedor" key={character.id}>
                         <div className="contenedor-img">
                             <img src={character.img} alt="" />
-                        </div>
-                        <div className="contenedor-datos">
+                        
+                            <div className="contenedor-datos">
                             <h3>{character.name}</h3>
                             <p>{character.description}</p>
+                        </div>
                         </div>
                     </div>
                 ))
